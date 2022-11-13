@@ -1,9 +1,16 @@
+#copyright SAYANTANPATRA68
+#for Issues Contact sayantanpatra68@gmail.com
+
 import sys
 import cv2
 import time
 import pyautogui as pg
 import ctypes
 import pyttsx3 #pip install pyttsx3
+
+print("copyright SAYANTANPATRA68")
+print("Made by Sayantan Patra")
+print("for issues email - sayantanpatra68@gmail.com")
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -53,7 +60,7 @@ while True:
 
         
 
-    cv2.imshow("Security Cam", frame)
+    cv2.imshow("Sayantan Patra Security Camera", frame)
     key = cv2.waitKey(1)
     if key==ord('q'):
         break
