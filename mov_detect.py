@@ -8,7 +8,7 @@ import pyautogui as pg
 import ctypes
 import pyttsx3 #pip install pyttsx3
 
-print("copyright SAYANTANPATRA68")
+print("copyright sayantancodex")
 print("Made by Sayantan Patra")
 print("for issues email - sayantanpatra68@gmail.com")
 
